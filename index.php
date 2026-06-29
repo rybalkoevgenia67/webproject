@@ -165,12 +165,39 @@ function pageFooter() {
 pageHeader('Приют для животных');
 ?>
 
-<header class="hero" style="background-image: url('public/images/hero-bg.jpg');">
+<header class="hero">
     <div class="hero-content">
-        <h1>Каждому нужен дом</h1>
-        <p class="hero-subtitle">Приют «Тёплый дом»</p>
-        <p class="hero-description">Мы находим любящие семьи для бездомных животных. Откройте сердце новому другу.</p>
-        <a href="#guardianship" class="btn btn-primary btn-lg">Стать опекуном</a>
+        <span class="hero-badge">Приют для животных</span>
+        <h1>Найди <em>своего</em> друга</h1>
+        <p class="hero-text">Мы соединяем одинокие сердца. Более 850 животных уже обрели дом благодаря нашим опекунам.</p>
+        
+        <div class="hero-stats-row">
+            <div class="hero-stat">
+                <span class="hero-stat-number">850+</span>
+                <span class="hero-stat-label">Пристроено</span>
+            </div>
+            <div class="hero-stat">
+                <span class="hero-stat-number">60</span>
+                <span class="hero-stat-label">Ждут дом</span>
+            </div>
+            <div class="hero-stat">
+                <span class="hero-stat-number">6</span>
+                <span class="hero-stat-label">Лет работы</span>
+            </div>
+        </div>
+        
+        <div class="hero-buttons">
+            <a href="#guardianship" class="btn btn-primary">Стать опекуном</a>
+            <a href="#pets" class="btn-outline-dark">Посмотреть питомцев</a>
+        </div>
+    </div>
+    
+    <div class="hero-image" style="background-image: url('public/images/hero-bg.jpg');"></div>
+    
+    <div class="hero-dots">
+        <span class="hero-dot"></span><span class="hero-dot"></span><span class="hero-dot"></span>
+        <span class="hero-dot"></span><span class="hero-dot"></span><span class="hero-dot"></span>
+        <span class="hero-dot"></span><span class="hero-dot"></span><span class="hero-dot"></span>
     </div>
 </header>
 
