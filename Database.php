@@ -3,9 +3,9 @@ class Database {
     private static ?PDO $instance = null;
     
     private const DB_HOST = 'localhost';
-    private const DB_NAME = 'u82669';
-    private const DB_USER = 'u82669';
-    private const DB_PASS = '9085380';
+    private const DB_NAME = 'u82673';
+    private const DB_USER = 'u82673';
+    private const DB_PASS = '4038561';
     
     public static function getInstance(): PDO {
         if (self::$instance === null) {
